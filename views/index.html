@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>freeCodeCamp File Metadata</title>
+    <link href="/public/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>freeCodeCamp File Metadata</h1>
+      <h2>Usage:</h2>
+      <p>Please Upload a File ...</p>
+      <form
+        enctype="multipart/form-data"
+        method="POST"
+        action="/api/fileanalyse"
+      >
+        <input
+          id="inputfield"
+          type="file"
+          name="upfile"
+          enctype="multipart/form-data"
+        />
+        <input id="button" type="submit" value="Upload" />
+      </form>
+    </main>
+    <footer>By <a href="https://rubenvara.io" target="_blank">Rubén</a></footer>
+  </body>
+</html>
